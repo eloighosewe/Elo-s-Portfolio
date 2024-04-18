@@ -1,0 +1,41 @@
+.col-md-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.box{
+    background: url(/MEDIA/elos\ pic4.png);
+    -webkit-backgroundsize: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    width: 450px;
+    animation: animate 5s ease-in-out infinite;
+    transition: all ls ease-in-out;
+    margin-left: -10%;
+    margin-top: -12%;
+}
+
+@keyframes animate{
+    0% {
+        border-radius: 60%  40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30%  60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60%  40% 30% 70%/60% 30% 70% 40%;
+    }
+    
+}
+.icons{
+    width: 100%;
+   
+    
+}
+
+
